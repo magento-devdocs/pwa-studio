@@ -20,6 +20,7 @@
         "deploy": "yarn build:production && ./scripts/deploy.sh",
         "develop": "yarn build && node scripts/develop.js",
         "fix-markdown": "node scripts/fix-markdown.js",
+        "index:algolia": "bundle exec jekyll algolia --config _config-production.yml,src/_config.yml -n",
         "lint": "node scripts/lint",
         "start": "npm-run-all -s clean develop"
     },

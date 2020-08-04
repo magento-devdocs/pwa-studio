@@ -36,3 +36,4 @@ jobs:
     - run: bundle install
 
     - run: npm run build
+    - run: npm run index:algolia

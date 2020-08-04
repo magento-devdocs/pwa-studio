@@ -3,3 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll-redirect-from'
 
 gem 'devdocs', :git => 'https://github.com/magento-devdocs/devdocs-theme.git'
+
+group :jekyll_plugins do
+    gem 'jekyll-algolia', '~> 1.0'
+end
